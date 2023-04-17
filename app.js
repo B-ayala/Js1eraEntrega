@@ -3,7 +3,7 @@ let jugadorSalud = 100;
 let enemigoSalud = 100;
 let ronda = 1;
 
-// Comenzamos el juego
+
 alert("¡Comienza la batalla!");
 
 while(jugadorSalud > 0 && enemigoSalud > 0){
