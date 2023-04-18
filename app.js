@@ -10,7 +10,7 @@ while(jugadorSalud > 0 && enemigoSalud > 0){
 
    alert("Ronda " +ronda)
 
-   let accion = prompt("deseas atacar o defender? (Ingresa 'atacar' o 'defender' )")
+   let accion = prompt("deseas atacar o defender? (Ingresa 'atacar' o 'defender' )").toLowerCase();
 
    if(accion === 'atacar'){
         let dañoAlJugador = Math.floor(Math.random()*20) +10;
